@@ -28,6 +28,7 @@
 .navbar-logo {
   margin-right: auto;
   margin-left: 15px;
+  padding-top: 4px;
 }
 
 .navbar-items {
@@ -36,4 +37,13 @@
 
 .navbar-items-right {
   margin-right: 15px;
+}
+
+.owl-carousel {
+  width: 100vw;
+  height: 25vh;
+
+  img {
+    height: 50vh;
+  }
 }
