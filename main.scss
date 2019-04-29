@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-item {
-  text-decoration: none;
+  align-self: flex-end
 }
 
 .navbar-items {
@@ -83,5 +83,19 @@ body {
 
   img {
     object-fit: contain;
+    margin-bottom: 0px;
+  }
+}
+
+#content-contact {
+  line-height: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: pink;
   }
 }
