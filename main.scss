@@ -3,6 +3,8 @@ body {
   color: white;
 }
 
+//Fix the spacing in the FAB icons
+
 .navbar {
   display: flex;
   width: 60%;
@@ -14,12 +16,7 @@ body {
 
 .navbar-logo {
   margin-right: auto;
-  margin-left: 15px;
   padding-top: 4px;
-}
-
-.navbar-item {
-  align-self: flex-end
 }
 
 .navbar-items {
@@ -28,6 +25,11 @@ body {
 
 .navbar-items-right {
   margin-right: 15px;
+  align-self: flex-end;
+
+  &a {
+    margin-left: 150px;
+  }
 }
 
 .white-separator {

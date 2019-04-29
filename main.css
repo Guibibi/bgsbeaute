@@ -20,13 +20,7 @@ body {
 
 .navbar-logo {
   margin-right: auto;
-  margin-left: 15px;
   padding-top: 4px;
-}
-
-.navbar-item {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
 }
 
 .navbar-items {
@@ -35,6 +29,12 @@ body {
 
 .navbar-items-right {
   margin-right: 15px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.navbar-items-righta {
+  margin-left: 150px;
 }
 
 .white-separator {
