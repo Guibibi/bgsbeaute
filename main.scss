@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  color: white;
 }
 
 .navbar {
@@ -15,7 +16,10 @@ body {
   margin-right: auto;
   margin-left: 15px;
   padding-top: 4px;
-  color: white;
+}
+
+.navbar-item {
+  text-decoration: none;
 }
 
 .navbar-items {
@@ -34,4 +38,37 @@ body {
   margin: 1em auto 0 auto;
   padding: 0;
   width: 75%;
+  max-width: 1300px;
+}
+
+.content-container {
+  margin: auto;
+  width: 75vw;
+  display: flex;
+  margin-top: 3em;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 25, 25);
+  max-width: 1200px;
+}
+
+.content-label {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+  height: 50%;
+  line-height: 5rem;
+}
+
+.content-title {
+  font-size: 3rem;
+  font-family: "Arapey", serif;
+}
+
+.content-subtitle {
+  font-family: "Montserrat", sans-serif;
+}
+
+.content-image {
+  flex: 1;
 }
