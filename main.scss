@@ -57,7 +57,7 @@ body {
   padding: 1rem;
   text-align: center;
   height: 50%;
-  line-height: 5rem;
+  line-height: 3rem;
 }
 
 .content-title {
@@ -69,6 +69,19 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.contact-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 15px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
 .content-image {
   flex: 1;
+
+  img {
+    object-fit: contain;
+  }
 }
