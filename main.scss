@@ -101,3 +101,14 @@ body {
     color: pink;
   }
 }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .content-container {
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
