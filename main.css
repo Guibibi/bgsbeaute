@@ -91,6 +91,7 @@ body {
   padding: 15px;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 .content-image {
